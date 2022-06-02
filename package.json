@@ -1,0 +1,17 @@
+{
+  "name": "yapi-server",
+  "version": "1.0.0",
+  "description": "yapi-convert-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pm2 start index.js --watch"
+  },
+  "author": "yijian",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0"
+  }
+}
